@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Position</title>
+</head>
+<body>
+    <header>
+        <nav class="site-navigation">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="table-navigation" href="table.html">Tables</a></li>
+                <li><a href="flex-box.html">Flex-Box</a></li>
+                <li><a href="position.html">Position</a></li>
+                <li><a href="fonts.html">Fonts</a></li>
+                <li><a href="figures.html">Figures</a></li>
+                <li><a href="tags.html">Tags</a></li>
+                <li><a href="nth-child.html">Nth-Child</a></li>
+                <li><a href="botstrap-example.html">Bootstrap</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="page-title">Static</h1>
+        <section class="example position">
+            <div class="container">
+                <div class="example__title d-flex">
+                    <div class="example__list-item">1</div>
+                    <div class="example__list-item">2</div>
+                    <div class="example__list-item">3</div>
+                    <div class="example__list-item">4</div>
+                </div>
+            </div>
+        </section>
+
+        <h1 class="page-title">Relative</h1>
+        <section class="example position">
+            <div class="container">
+                <div class="example__title d-flex">
+                    <div class="example__list-item">1</div>
+                    <div class="example__list-item relative">2
+                        <div class="relative-child">2 Child</div>
+                    </div>
+                    <div class="example__list-item">3</div>
+                    <div class="example__list-item">4</div>
+                </div>
+            </div>
+        </section>
+
+
+        <h1 class="page-title">Absolute</h1>
+        <section class="example position">
+            <div class="container">
+                <div class="example__title d-flex">
+                    <div class="example__list-item">1</div>
+                    <div class="example__list-item">2</div>
+                    <div class="example__list-item absolute">3</div>
+                    <div class="example__list-item">4</div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="example__list-item fixed"></a>
+
+        <div class="example-sticky">
+        <h2 class="title-sticky">Sticky</h2>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li class="item-sticky">6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li class="item-sticky">13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li class="item-sticky">20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li class="item-sticky">24</li>
+            <li>25</li>
+        </ul>
+    </div>
+    </main>
+</body>
+</html>

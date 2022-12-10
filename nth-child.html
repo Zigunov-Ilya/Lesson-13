@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Nth-Child</title>
+</head>
+
+<body>
+    <header>
+        <nav class="site-navigation">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="table-navigation" href="table.html">Tables</a></li>
+                <li><a href="flex-box.html">Flex-Box</a></li>
+                <li><a href="position.html">Position</a></li>
+                <li><a href="fonts.html">Fonts</a></li>
+                <li><a href="figures.html">Figures</a></li>
+                <li><a href="tags.html">Tags</a></li>
+                <li><a href="nth-child.html">Nth-Child</a></li>
+                <li><a href="botstrap-example.html">Bootstrap</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="page-title">Nth-Child</h1>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Default</h2>
+                <div class="example-row d-flex justify-content-between">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">First-Child</h2>
+                <div class="example-row d-flex justify-content-between first-child">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Last-Child</h2>
+                <div class="example-row d-flex justify-content-between last-child">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(odd)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-odd">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(even)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-even">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(3n)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-3n">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(3n+4)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-3n_4">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(-n+5)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-n_5">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(-3n+10)</h2>
+                <div class="example-row d-flex justify-content-between nth-child-3n_10">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <section class="example-second">
+            <div class="container container-overflow-x">
+                <h2 class="example-title">Nth-Child(n+3) Nth-Child(-n+8)</h2>
+                <div class="example-row d-flex justify-content-between nth-child__diapason">
+                    <div class="child-item">1</div>
+                    <div class="child-item">2</div>
+                    <div class="child-item">3</div>
+                    <div class="child-item">4</div>
+                    <div class="child-item">5</div>
+                    <div class="child-item">6</div>
+                    <div class="child-item">7</div>
+                    <div class="child-item">8</div>
+                    <div class="child-item">9</div>
+                    <div class="child-item">10</div>
+                </div>
+            </div>
+        </section>
+        <div class="product-row">
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/bentley.png" class="img-fluid" alt="">
+                </div>
+                <div class="product-title">
+                    Bentley
+                </div>
+                <div class="product-description">
+                    Bentley Motors Ltd. ([ˈbɛːntli]) — британская автомобилестроительная компания, специализирующаяся на производстве автомобилей класса «люкс».
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/mits.png" class="img-fluid" alt="">
+                </div>
+                <div class="product-title">
+                    Mitsubishi
+                </div>
+                <div class="product-description">
+                    Mitsubishi Group (яп. 三菱グループ Мицубиси гуру:пу) (по-русски «Мицуби́си груп»[1][2]) — японский конгломерат, один из первых дзайбацу.
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/audi.png" class="img-fluid" alt="audi">
+                </div>
+                <div class="product-title">
+                    Audi
+                </div>
+                <div class="product-description">
+                    Audi AG ([ˈɑʊdɪ], audi в переводе с лат. — «слушай»[3]) — немецкая[4] автомобилестроительная компания в составе концерна Volkswagen Group
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/bmw.png" class="img-fluid" alt="bmw">
+                </div>
+                <div class="product-title">
+                    BMW
+                </div>
+                <div class="product-description">
+                    BMW AG (рус. Бэ-Эм-Вэ́[3] — немецкий производитель автомобилей, мотоциклов, двигателей, а также велосипедов.
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/mercedes.png" class="img-fluid" alt="">
+                </div>
+                <div class="product-title">
+                   Mercedes
+                </div>
+                <div class="product-description">
+                    Mercedes-Benz ([mɛʁˈtseːdəs ˈbɛnts] или [-dɛs-][2][3]; рус. Мерсе́дес-Бенц[4]) — торговая марка и одноимённая компания — производитель легковых автомобилей премиального класса
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/volvo.png" class="img-fluid" alt="">
+                </div>
+                <div class="product-title">
+                    Volvo
+                </div>
+                <div class="product-description">
+                    Volvo (Volvokoncernen, Volvo Group) — концерн, производящий коммерческие и грузовые автомобили, автобусы, двигатели и различное оборудование.
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="assets/img/lexus.png" class="img-fluid" alt="">
+                </div>
+                <div class="product-title">
+                    Lexus
+                </div>
+                <div class="product-description">
+                    Lexus (яп. レクサス рэкусасу) (рус. «Ле́ксус») — марка премиальных автомобилей, производимых японской корпорацией Toyota Motor.
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+header {
+    background: #0087b4;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    max-width: 1395px;
+    margin: 0 auto;
+}
+
+.site-navigation ul {
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.site-navigation ul li {
+     padding: 0 15px;
+     font-size: 18px;
+}
+
+.site-navigation ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.site-navigation ul li a:hover {
+    text-decoration: underline;
+    color: rgb(112, 0, 0);
+}
+
+.page-title {
+    font-size: 30px;
+    padding: 0 12px;
+    max-width: 1419px;
+    margin: 36px auto 22px;
+}

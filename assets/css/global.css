@@ -1,0 +1,44 @@
+.fw-100 {
+    font-weight: 100;
+    color: var(--color-red);
+}
+
+.fw-200 {
+    font-weight: 200;
+    color: var(--color-purple);
+}
+
+.fw-300 {
+    font-weight: 300;
+    color: var(--color-blue);
+}
+
+.fw-400 {
+    font-weight: 400;
+    color: var(--color-green);
+}
+
+.fw-500 {
+    font-weight: 500;
+    color: var(--color-orange);
+}
+
+.fw-600 {
+    font-weight: 600;
+    color: var(--color-brown);
+}
+
+.fw-700 {
+    font-weight: 700;
+    color: var(--color-grey);
+}
+
+.fw-800 {
+    font-weight: 800;
+    color: var(--color-blue-grey);
+}
+
+.fw-900 {
+    font-weight: 900;
+    color: #131313;
+}

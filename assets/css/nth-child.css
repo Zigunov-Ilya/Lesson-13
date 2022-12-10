@@ -1,0 +1,139 @@
+
+
+.child-item {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding-top: 40px;
+    font-family: 'Fira Sans';
+}
+
+.example-second {
+    margin-bottom: 60px;
+}
+
+.example-title {
+    font-family: 'Fira Sans';
+    margin-bottom: 15px;
+}
+
+.first-child .child-item:first-child {
+    background-color: rgb(100, 100, 100);
+}
+
+.last-child .child-item:last-child {
+    background-color: rgb(100, 100, 100);
+}
+
+.nth-child-7 .child-item:nth-child(7) {
+    background-color: rgb(100, 100, 100);
+}
+
+.nth-child-odd .child-item:nth-child(odd) {
+    background-color: rgb(100, 100, 100);
+}
+
+.nth-child-even .child-item:nth-child(even) {
+    background-color: rgb(100, 100, 100);
+}
+
+.nth-child-3n .child-item:nth-child(3n) {
+    background-color: rgb(100, 100, 100); 
+}
+
+.nth-child-3n_4 .child-item:nth-child(3n+4) {
+    background-color: rgb(100, 100, 100); 
+}
+
+.nth-child-n_5 .child-item:nth-child(-n+5) {
+    background-color: rgb(100, 100, 100);  
+}
+
+.nth-child-3n_10 .child-item:nth-child(-3n+10) {
+    background-color: rgb(100, 100, 100);   
+}
+
+.nth-child__diapason .child-item:nth-child(n+3):nth-child(-n+7) {
+    background-color: rgb(100, 100, 100);   
+}
+
+
+/*product row*/
+
+.product-row {
+    display: flex;
+    margin: 90 auto 120px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.product {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #e4e1e1;
+    border-radius: 5px;
+    align-self: center;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.product-img {
+    margin-bottom: 12px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.product-description {
+    font-size: 12px;
+    color: #fff;
+}
+
+.product:nth-child(4) {
+    width: 150%;
+    background-color: #f44336;
+ 
+    height: 500px;
+}
+.product:nth-child(4) .product-title {
+    font-size: 24px;
+}
+
+.product:nth-child(4) .product-description {
+    font-size: 20px;
+}
+
+.product:nth-child(2n+3) {
+    width: 120%;
+    background-color: aqua;
+    height: 440px;
+}
+
+.product:nth-child(4n+2) {
+    width: 120%;
+    height: 370px;
+    background-color: rgb(119, 0, 255);
+
+}
+
+.product:first-child,
+.product:last-child {
+    background: #2196f3;
+    height: 320px;
+}
+
+
+.product:hover{
+    width: 150%;
+    background-color: #211d1d;
+    height: 500px;
+}

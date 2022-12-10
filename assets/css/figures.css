@@ -1,0 +1,53 @@
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.content {
+    margin: 30px 0;
+}
+
+.figure-list {
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+
+.figure-item {
+    width: 50%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: orange;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+.figure-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: #ff00ea;
+}
+
+.oval {
+    margin-left: 20px;
+    width: 200px;
+    height: 100px;
+    background: blue;
+    border-radius: 100px / 50px;
+}

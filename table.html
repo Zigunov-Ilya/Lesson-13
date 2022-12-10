@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="site-navigation">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="table-navigation" href="table.html">Tables</a></li>
+                <li><a href="flex-box.html">Flex-Box</a></li>
+                <li><a href="position.html">Position</a></li>
+                <li><a href="fonts.html">Fonts</a></li>
+                <li><a href="figures.html">Figures</a></li>
+                <li><a href="tags.html">Tags</a></li>
+                <li><a href="nth-child.html">Nth-Child</a></li>
+                <li><a href="botstrap-example.html">Bootstrap</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="page-title">Tables:</h1>
+        <div class="container">
+            <table>
+                <caption>Rating of countries by comfort (Europe)</caption>
+            <thead>             
+                <tr>
+                    <td colspan="5">Table №1</td>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Number:</td>
+                        <td>Country:</td>
+                        <td>Decription:</td>
+                        <td>Rating (Comfort):</td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Germany</td>
+                        <td>Germany is a country located in the heart of Western Europe.</td>
+                        <td>12/12</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Finland</td>
+                        <td>Finland, country located in northern Europe. Finland is one of the world's most northern and geographically remote countries and is subject to a severe climate.</td>
+                        <td>10/12</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Great Britain</td>
+                        <td>Great Britain is an island in the North Atlantic Ocean off the northwest coast of continental Europe.</td>
+                        <td>8/12</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Colspan here!</td>
+                        <td>Test</td>
+                        <td rowspan="2">rowspan here</td>
+                        <td>normal</td>
+                    </tr>
+                    <tr>
+                        <td>I love testing, too</td>
+                        <td>Test)</td>
+                        <td>rowspan</td>
+                        <td>normal</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Table №1</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

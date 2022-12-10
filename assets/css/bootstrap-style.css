@@ -320,3 +320,12 @@ div#contact {
     width: 100%;
 }
 
+.form-control.me-2 {
+    height: 50px;
+    margin-top: 24px;
+}
+
+.btn-outline-success {
+    height: 50px;
+    margin-top: 24px;
+}

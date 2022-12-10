@@ -1,0 +1,106 @@
+.custom-form {
+    height: 390px;
+    margin: 90px auto 120px;
+    max-width: 435px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 50px;
+    background: url(../../assets/img/space.jpg) center;
+    background-attachment: fixed;
+}
+
+input[type="submit"] {
+    border-radius: 50px;
+    width: 325px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+input[type="button"] {
+    width: 325px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+input#jname {
+    width: 324px;
+}
+
+input#telephone {
+    width: 324px;
+}
+
+input#jname:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+input#jname:active {
+    background: #888888
+}
+
+input#telephone:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+input#telephone:active {
+    background: #888888
+}
+
+input[type="submit"]:focus {
+    background-color: #5b5b5b;
+}
+
+input[type="button"]:focus {
+    background-color: #5b5b5b;
+}
+
+.nice-select {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 212px;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: left !important;
+}
+
+.nice-select .list {
+    width: 100%;
+}
+
+label {
+    color: #fff;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-templates {
+    margin: 0 auto;
+    width: 923px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: url(../img/space.jpg) center repeat;
+    background-attachment: fixed;
+    padding: 12px 24px;
+}
+.form-template {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    background: #0e4751;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+input#file {
+    color: #fff;
+}
+
+input#image {
+    color: #fff;
+}

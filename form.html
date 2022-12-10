@@ -8,6 +8,7 @@
     <title>Forms</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-style.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/form.css">
 </head>
 
@@ -62,26 +63,132 @@
     <div class="container">
         <h1 class="page-title">Forms</h1>
 
-
-
-
         <form class="custom-form">
-            <label for="jname">Name:</label><br>
+            <label class="label-text" for="jname">Name:</label><br>
             <input type="text" id="jname" name="jname"><br>
 
-            <label for="telephone">Phone:</label><br>
-            <input type="tel" id="telephone" name="telephone">
+            <label class="label-text" for="telephone">Phone:</label><br>
+            <input class="phone" type="tel" id="telephone" name="telephone">
 
             <input type="submit" value="Send">
+            <input type="button" value="Close">
+
+            
+        <select>
+            <option data-display="Select">Nothing</option>
+            <option value="1">Some option</option>
+            <option value="2">Another option</option>
+            <option value="3" disabled>A disabled option</option>
+            <option value="4">Potato</option>
+          </select>
         </form>
 
+        <div class="form-container">
+        <form class="form-templates">
+            <div class="form-template">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            </div>
+            <div class="form-template">
+                <label>What car do you want?</label>
+                <div>
+                  <input type="radio" id="contactChoice1"
+                   name="contact" value="email">
+                  <label for="contactChoice1">BMW</label>
+                    
+                  <input type="radio" id="contactChoice2"
+                   name="contact" value="phone">
+                  <label for="contactChoice2">AUDI</label>
+              
+                  <input type="radio" id="contactChoice3"
+                   name="contact" value="mail">
+                  <label for="contactChoice3">MERCEDES</label>
+                </div>
+            </div>
+            <div class="form-template">
+                <label for="range-id">WOW RANGEE!</label>
+                <input type="range" id="range-id">
+            </div>
+            <div class="form-template">
+                <label for="search-id">Pls find here</label>
+                <input type="search" id="search-id" placeholder="Type here..">
+            </div>
+            <div class="form-template">
+                <label for="telephone2">Telephone</label>
+                <input class="phone" type="tel" id="telephone2">
+            </div>
+            <div class="form-template">
+                <label for="time">Time</label>
+                <input type="time" id="time" >
+            </div>
+            <div class="form-template">
+                <label for="week">Week:</label>
+                <input type="week" id="week">
+            </div>
+            <div class="form-template">
+                <label for="url">URL:</label>
+                <input type="url" id="url">
+            </div>
+            <div class="form-template">
+                <label for="number">Number:</label>
+                <input type="number" id="number">
+            </div>
+            <div class="form-template">
+                <label for="file">File:</label>
+                <input type="file" id="file">
+            </div>
+            <div class="form-template">
+                <label for="content">Content:</label>
+                <div>
+                    <textarea id="content" name="content" cols="60" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-template">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+            </div>
 
+            <div class="form-template">
+                <label for="image">Image:</label>
+                <input type="image" id="image">
+            </div>
+            <div class="form-template">
+                <label for="datetime-local">DateTime-Local:</label>
+                <input type="datetime-local" id="datetime-local">
+            </div>
+            <div class="form-template">
+                <label for="color">Color:</label>
+                <input type="color" id="color">
+            </div>
+            <div class="form-template">
+                <label for="file">CheckBox:</label>
+                <div>
+                    <input type="checkbox" id="a" name="a" checked>
+                    <label for="scales">A</label>
+                  </div>
+              
+                  <div>
+                    <input type="checkbox" id="b" name="b">
+                    <label for="horns">B</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="c" name="c">
+                    <label for="horns">C</label>
+                  </div>
+            </div>
 
-
-
-
+            <div class="form-template">
+                <label for="reset">Reset:</label>
+                <input type="reset" id="reset">
+            </div>
+        </form>
+    </div>
 
     </div>
+    <script src="assets/js/jQuery-v3.6.1.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
